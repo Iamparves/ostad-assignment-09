@@ -10,7 +10,7 @@ const BlogCard = ({ blog }) => {
     >
       <div className="w-full h-48 relative rounded-xl overflow-hidden">
         <Image
-          src={blog.thumbnail}
+          src={`${blog.thumbnail}?strip=all&lossy=1&resize=360%2C200&ssl=1`}
           fill
           className="object-cover"
           alt={blog.title}

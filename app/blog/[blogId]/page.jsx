@@ -1,8 +1,8 @@
 import { getBlogById } from "@/utils/apiRequest";
 import Image from "next/image";
 
-const Page = ({ params }) => {
-  const blog = getBlogById(+params.blogId);
+const Page = ({ params: {blogId} }) => {
+  const blog = getBlogById(+blogId);
   const date = new Date(blog.date).toLocaleDateString("en-us", {
     year: "numeric",
     month: "long",
