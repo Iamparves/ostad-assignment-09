@@ -1,6 +1,6 @@
 ## Simple Blog Website with Next.js 13
 
-#### Live Preview: [BytefulBlogs](https://phr-ostad-bytefulblogs.netlify.app)
+#### Live Preview: [BytefulBlogs](https://phr-ostad-bytefulblogs.vercel.app)
 
 ### Task 1:
 
